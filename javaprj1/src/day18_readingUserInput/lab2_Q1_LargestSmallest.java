@@ -2,7 +2,7 @@ package day18_readingUserInput;
 
 import java.util.Scanner;
 
-public class lab1_LargestSmallest {
+public class lab2_Q1_LargestSmallest {
 	
 	public static void main(String[] args) {
 		
