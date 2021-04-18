@@ -16,7 +16,7 @@ public class Circle {
 		return radius * 2 * 3.14;
 	}
 	
-	public String toString() {
+	public String toString() {		// action to convert to String
 		return "Radius " + radius
 				+ ", Area: " + calculateArea()
 				+ ", Peremeter: " + calculatePerimeter();
