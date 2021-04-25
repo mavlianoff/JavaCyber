@@ -8,7 +8,8 @@ public class Calculator {
 		
 		Scanner scan = new Scanner(System.in); // \n\n
 		
-		while(true) {
+		while(true) { // if user never says no, then we need to make sure the loop can run infinite time
+			
 			System.out.println("Please enter first number: ");
 			int f = scan.nextInt(); // 10\n ==> \n goes to scanner memory
 	
@@ -27,7 +28,7 @@ public class Calculator {
 						break;
 				case '*': System.out.println("Multiplication: " + (f*s));
 						break;
-				case '/': System.out.println("Division: " + (f-s));
+				case '/': System.out.println("Division: " + (f/s));
 						break;
 				default:
 					System.out.println("Invalid Operator");
