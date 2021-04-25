@@ -15,7 +15,25 @@ public class Calculator {
 			System.out.println("Please enter second number: ");
 			int s = scan.nextInt(); // 20\n ==> \n goes to scanner memory
 			
-			System.out.println("Sum: " + (f+s));
+//			System.out.println("Sum: " + (f+s));
+			
+			System.out.println("Enter a math operator");
+			char operator = scan.next().charAt(0); // this is the way to enter char value to scanner
+			
+			switch (operator) {
+				case '-': System.out.println("Subtraction: " + (f-s));
+						break;
+				case '+': System.out.println("Addition: " + (f+s));
+						break;
+				case '*': System.out.println("Multiplication: " + (f*s));
+						break;
+				case '/': System.out.println("Division: " + (f-s));
+						break;
+				default:
+					System.out.println("Invalid Operator");
+			
+			
+			}
 			
 			scan.nextLine(); //  \n\n
 			
