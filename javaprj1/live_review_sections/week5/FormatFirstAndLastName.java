@@ -9,6 +9,7 @@ public class FormatFirstAndLastName {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter your first name: ");
 		String fname = scan.next();
+		scan.close(); // This is where i last time used Scanner
 		fname = fname.substring(0,1).toUpperCase() + fname.substring(1).toLowerCase();
 		
 		System.out.println("Please enter your second name: ");
