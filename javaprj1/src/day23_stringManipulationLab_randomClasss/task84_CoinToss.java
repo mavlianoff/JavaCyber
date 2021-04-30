@@ -14,9 +14,7 @@ public class task84_CoinToss {
 				System.out.println("Tails");    //Tail=0 Heads=1
 			}else {
 				System.out.println("Heads");
-			}
-			
-			
+			}	
 			
 		}
 		
