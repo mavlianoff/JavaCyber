@@ -1,4 +1,4 @@
-package day24_Arrays_I;
+package day25_Arrays_II;
 
 import java.util.Random;
 
