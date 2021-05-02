@@ -12,6 +12,7 @@ public class task_RainFall {
 			-the month with the least rain
 		Input Validation: Do not accept negative numbers for the monthly rainfall figures.
 		 */
+		
 		String[] months = {"Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"};
 		double[] rainFall = new double[12];
 		
@@ -24,9 +25,8 @@ public class task_RainFall {
 			rainFall[i] = scan.nextDouble();
 		}
 		
-		rainfallCalculation(double[] rainFall);
+		rainfallCalculation(rainFall);
 		
-
 	}
 	
 	public static void rainfallCalculation(double[] rainfallArray) {
