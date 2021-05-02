@@ -8,21 +8,29 @@ public class ForEachLoop {
 		double[] prices = {12.99, 2.99, 112.99, 11.99};
 		
 		for(int i=0; i<products.length; i++) {
-			System.out.println(products[i]);
+			System.out.print(products[i] + " ");
 		}
 		
 		for(int i=0; i<prices.length; i++) {
-			System.out.println(prices[i]);
+			System.out.print("$" + prices[i] + " ");
+//			System.out.print(products[i] + ": $" + prices[i] + " \n");
 		}
 		
-		System.out.println("+++++++++++++++");
+		System.out.println("\n+++++++++++++++");
 		
 		for(String prod: products) {
-			System.out.println(prod);
+			System.out.print(prod + ": ");
 		}
 		
 		for(double price: prices) {
-			System.out.println(price);
+			System.out.print("$" + price + " ");
+		}
+
+		System.out.println("\n+++++++++++++++");
+		
+		//print products in reverse order
+		for(int i=products.length -1; i>=0; i--) {
+			System.out.println(products[i]);
 		}
 
 	}
