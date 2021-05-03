@@ -11,9 +11,9 @@ public class FindingMaxMinNumber {
 		//SOLUTION-1
 		int max = 0;
 		
-		for(int value: numbers) {
-			if(value > max) {
-				max = value;
+		for(int each: numbers) {
+			if(each > max) {
+				max = each;
 			}
 		}
 		System.out.println("Solution-1 answer: " + max);
