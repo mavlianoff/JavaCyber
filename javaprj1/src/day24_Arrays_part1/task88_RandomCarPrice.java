@@ -1,4 +1,4 @@
-package day24_Arrays_I;
+package day24_Arrays_part1;
 
 import java.util.Scanner;
 

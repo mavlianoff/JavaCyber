@@ -1,4 +1,4 @@
-package day25_Arrays_II;
+package day25_Arrays_part2;
 
 public class ReturnArray {
 
