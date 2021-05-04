@@ -1,4 +1,4 @@
-package day26_Array_part3;
+package day26_Arrays_part3;
 
 public class ArrayMethodReview {
 
