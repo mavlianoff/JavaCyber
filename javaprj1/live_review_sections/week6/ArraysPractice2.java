@@ -83,16 +83,7 @@ public class ArraysPractice2 {
 		}
 		
 		
-		System.out.println("----------------------");
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("----------------------");	
 		
 	}
 
