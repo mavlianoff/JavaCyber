@@ -17,7 +17,7 @@ public class Lab4_Q21 {
 		int sum2 = 0;
 		for(int each: array) {
 			if(each == 2) {
-				sum2+=2;
+				sum2 = sum2+each;
 			}
 		}
 		if(sum2 ==8) {
