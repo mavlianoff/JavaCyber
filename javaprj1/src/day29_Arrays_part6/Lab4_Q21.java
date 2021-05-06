@@ -1,4 +1,4 @@
-package day28_Arrays_part5;
+package day29_Arrays_part6;
 
 public class Lab4_Q21 {
 	
