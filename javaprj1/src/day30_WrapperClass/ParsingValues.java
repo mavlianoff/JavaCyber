@@ -19,7 +19,12 @@ public class ParsingValues {
 		System.out.println("number	      : " + number1 + "   => arithmetic operation");
 		System.out.println("number2       : " + number2 + " => arithmetic operation");
 		
+		int int1 = 10;
+		String str = String.valueOf(int1);
+		System.out.println("int -> String : " + str);
 		
+		String str1 = Integer.toString(int1);
+		System.out.println("int -> String : " + str1);
 	}
 
 }
