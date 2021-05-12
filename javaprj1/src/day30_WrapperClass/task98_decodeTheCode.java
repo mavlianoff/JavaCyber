@@ -30,8 +30,6 @@ public class task98_decodeTheCode {
 			strr = strr + getDigit(value) + " ";
 		}
 		
-		
-		
 		 return strr;
 	}
 
