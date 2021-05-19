@@ -15,7 +15,7 @@ public class PersonTest {
 		
 		
 		
-		//ENCAPSULATION ()
+		//ENCAPSULATION (HIDING DATA)
 			// 1- CUT THE ACCESS - PRIVATE						==> Private variables
 			// 2- CREATE SETTER METHOD TO INITIALIZE MY VALUE	==> Public setter methods
 			// 3- CREATE GETTER METHOD TO RETRIEVE VALUE		==> Public getter methods
