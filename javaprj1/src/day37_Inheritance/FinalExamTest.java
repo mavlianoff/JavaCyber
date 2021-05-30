@@ -8,10 +8,10 @@ public class FinalExamTest {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Number of questions in the exam: ");
+		System.out.print("Number of questions in the exam: ");
 		int questions = scan.nextInt();
 		
-		System.out.println("Number of questions missed: ");
+		System.out.print("Number of questions missed: ");
 		int missed = scan.nextInt();
 		
 		FinalExam exam = new FinalExam(questions, missed);
