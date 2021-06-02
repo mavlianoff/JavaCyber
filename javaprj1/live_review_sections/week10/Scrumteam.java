@@ -34,7 +34,7 @@ public class Scrumteam {
 		this.developers.addAll(Arrays.asList(developers));
 	}
 
-
+	
 	public String toString() {
 		return "Scrumteam [PO=" + PO + ", BA=" + BA + ", SM=" + SM + ", testers=" + testers.size() + ", developers="
 				+ developers.size() + "]";
