@@ -11,7 +11,9 @@ public class DogTest {
 		dog.setName("Jolbors");
 		System.out.println(dog.getName());
 		
+		System.out.println("//======//======//====//");
 		
+		dog.move(10);
 		
 		
 		
