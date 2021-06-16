@@ -14,6 +14,7 @@ public class finalArraylist {
 		
 //		COLORS = new ArrayList<String>(); //ERR, you cannot change the reference when itis declared final
 		
+		
 	}
 
 }
