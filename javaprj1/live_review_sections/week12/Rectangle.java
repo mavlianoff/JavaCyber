@@ -1,6 +1,6 @@
 package week12;
 
-public class Rectangle extends Shape {
+public final class Rectangle extends Shape {
 	// 2 (MANDATORY)reasons of errors in line 3
 	
 	
