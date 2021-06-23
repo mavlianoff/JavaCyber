@@ -16,6 +16,8 @@ public class Parkinglot {
 		System.out.println(bmw);
 		System.out.println(tesla);
 		
+		
+		
 	}
 
 }
