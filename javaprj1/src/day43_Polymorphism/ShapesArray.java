@@ -1,5 +1,8 @@
 package day43_Polymorphism;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ShapesArray {
 	
 	public static void main(String[] args) {
@@ -23,7 +26,11 @@ public class ShapesArray {
 			
 			}
 
+//		ArrayList<Shape> shapeList = new ArrayList<>();
+		List<Shape> shapeList = new ArrayList<Shape>();		//looking after colelction mapping, it is made as polymorphic
 		
+		shapeList.add(new Triangle());
+		shapeList.add(new Circle());
 		
 		
 	}
