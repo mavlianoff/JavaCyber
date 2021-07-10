@@ -24,6 +24,7 @@ public class CallCnter {
 		
 		VoiceCallable obj = new WhatsApp();
 		
+		//obj.launch();   //ERR
 		( (WhatsApp) obj).launch();
 		
 		( (MessagingApp) obj).allOSCompatible = false;
