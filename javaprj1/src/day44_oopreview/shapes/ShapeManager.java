@@ -43,3 +43,5 @@ public class ShapeManager {
 	
 
 }
+//Notice all static?
+// as there is no instance and i want to directly call it.
