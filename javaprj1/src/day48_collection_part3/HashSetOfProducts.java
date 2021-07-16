@@ -27,7 +27,7 @@ public class HashSetOfProducts {
 		}
 		
 		//print each product using forEach method
-		//side note: if emthod to be called, it requires object (prodSet)
+		//side note: if method to be called, it requires object (prodSet)
 		
 		prodSet.forEach(each -> System.out.println(each));
 		prodSet.forEach(each -> System.out.println(each.getName()));
