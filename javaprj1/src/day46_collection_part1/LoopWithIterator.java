@@ -51,7 +51,7 @@ public class LoopWithIterator {
 		}
 		
 		System.out.println(nums.toString());
-		
+	
 		
 		List<String> cities = new ArrayList<>();
 		cities.add("NY");
