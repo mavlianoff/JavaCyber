@@ -12,16 +12,16 @@ public class ExceptionHandlings_Throws {
 		System.out.println("Test 1 Completed");
 		
 		
-	//	method1();
+	//	method1();							//still gives exception as Thread.sleep(3000) just transferred exceptioj from line code to method
 		
 	}
 	
 	
 	
 	
-	public static void method1() throws InterruptedException{
-		
-		Thread.sleep(3000);
+	public static void method1() throws InterruptedException{		// cheap way of handling exception, adv: lot more short and readable 
+																	//BUT, with throws exception will not be gone, still to be handled
+		Thread.sleep(3000);										
 		
 		
 	}
