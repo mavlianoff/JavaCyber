@@ -19,7 +19,7 @@ public class MapsPractoce4 {
 		for(String each  : arr) {
 			
 			int frequency = Collections.frequency( Arrays.asList( arr ) , each);
-			
+			 
 			result.put(each, frequency);
 			
 			if(frequency == 1) {
