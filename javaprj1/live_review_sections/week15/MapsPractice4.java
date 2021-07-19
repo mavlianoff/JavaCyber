@@ -18,7 +18,7 @@ public class MapsPractice4 {
 		
 		for(String each  : arr) {
 			
-			int frequency = Collections.frequency( Arrays.asList( arr ) , each);
+			int frequency = Collections.frequency( Arrays.asList( arr ) , each);		// arr is not Collection type
 			 
 			result.put(each, frequency);
 			
