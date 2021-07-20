@@ -20,16 +20,24 @@ public class Polymorphism {
 		Animal animal1 =  new Dog(); //up casting
 	//	Animal animal1 =  (Animal) (new Dog());
 		
-		//animal.bark();
+		//animal.bark();			 // reference type decides
 		
 		
 		Dog dog = (Dog)animal1; // down casting
-		dog.bark();
+		dog.bark();					// reference type decides
 		
 		
-	//Lion lion = (Lion)animal1;
+	//Lion lion = (Lion)animal1;				//animal1 is new Dog() object, dog cannot be lion. There is no IS A relationship, NO POLYMORPHISM
 	//	lion.hunting();
+		//EXCEPTION: ClassCastException is when there is no IS A relationship
 		
+		
+		//DOWNCASTING IN PRACTICE
+		//screenshot method is not available in Webdriver but ChromeDriver does
+		/*
+		 WebDriver driver = new Chrome();
+		 (chrome) driver
+		 */
 		
 		
 		
